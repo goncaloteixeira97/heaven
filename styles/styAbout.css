@@ -1,0 +1,60 @@
+/*=======================MAIN========================*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*////////Section FIRST//////*/
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.imgMain1{
+    width: 30em;
+}
+.firstText{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    width: 25em;
+    height: min-content;
+}
+.textP{
+    font-family:'Oswald', sans-serif;
+    font-size:18px;
+}
+
+
+/*////////Section SECOND//////*/
+.second{ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.secondText{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    width: 57em;
+    height: min-content;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    gap:2em
+}
+.imgMain2{
+    width: 29em;
+    height: 35em;
+}
+
+/*////////Section THIRD//////*/
+iframe{
+    width: 60em;
+    height: 12em;
+}

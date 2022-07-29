@@ -1,0 +1,94 @@
+main{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+/*/////////LEFT////////*/
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap: 2em;
+    height: 30em;
+    width: 17em;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:white;
+    box-shadow:10px white;
+}
+.socialLeft{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-family:'Oswald', sans-serif;
+}
+i{
+    color:rgb( 197, 174, 133);
+}
+h2{
+    padding-top: 0px;
+}
+/*/////////RIGHT////////*/
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    height: 30em;
+    width: 17em;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:white;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family:'Oswald', sans-serif;
+}
+#nome{
+    width: 20em;
+    height: 1.6em;
+    font-family:'Oswald', sans-serif;
+    padding-left: 3px;
+    border: 2px solid black;
+}
+#email{
+    width: 20em;
+    height: 1.6em;
+    font-family:'Oswald', sans-serif;
+    padding-left: 3px;
+    border: 2px solid black;
+}
+#texto{
+    width: 20em;
+    height: 12em;
+    font-family:'Oswald', sans-serif;
+    padding-left: 3px;
+    padding-top: 3px;
+    border: 2px solid black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb( 197, 174, 133);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    font-size: small;
+    font-weight: 800;
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.6s;
+}
+button:hover{
+    color: rgb(255,170,205);
+    background-color: white;
+    outline: 2px solid rgb(255,170,205) ; 
+}

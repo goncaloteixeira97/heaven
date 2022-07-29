@@ -1,0 +1,59 @@
+/*=======================MAIN========================*/
+/*////////Options/Button//////*/
+.options{
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+}
+button{
+    background-color: rgb( 197, 174, 133);
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: medium;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.6s;
+}
+button:hover{
+    color: rgb(255,170,205);
+    background-color: white;
+    padding: 15px;
+    outline: 2px solid rgb(255,170,205) ;
+    font-size: medium;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+/*////////Options/Results//////*/
+.optionsResults{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    margin-top:3em;
+}
+p{
+    text-align: left;
+    font-family:'Oswald', sans-serif;
+    color: black;
+    transition: 0.6s;
+}
+p:hover{
+    text-align: left;
+    font-family:'Oswald', sans-serif;
+    color: grey;
+}
+.nailsPedicures, .facialYour, .womanMan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    width: 35em;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
